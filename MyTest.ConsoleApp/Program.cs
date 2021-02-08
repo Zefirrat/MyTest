@@ -9,7 +9,7 @@ namespace MyTest.ConsoleApp
     {
         static void Main(string[] args)
         {
-            IStartable test = new SynchronousMutexThreads();
+            IStartable test = new InheritanceConstructors();
             test.StartAsync().Wait();
         }
     }
